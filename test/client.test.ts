@@ -25,7 +25,7 @@ describe('resolveConfig', () => {
       accessToken: '',
       timeoutMs: 120_000,
     })
-    assert.equal(DEFAULT_BASE_URL, 'https://mindsee.app')
+    assert.equal(DEFAULT_BASE_URL, 'https://openapi.mindsee.app')
   })
 
   it('空地址回退到生产地址', () => {

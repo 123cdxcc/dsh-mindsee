@@ -1,5 +1,5 @@
 /** 生产地址。 */
-export const DEFAULT_BASE_URL = 'https://mindsee.app'
+export const DEFAULT_BASE_URL = 'https://openapi.mindsee.app'
 export const DEFAULT_TIMEOUT_MS = 120_000
 
 /** 与 OpenAPI / 上传约定一致的图片大小上限（20MB）。 */

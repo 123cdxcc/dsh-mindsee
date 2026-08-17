@@ -1,8 +1,17 @@
 {
   "name": "dsh-mindsee",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "description": "DeepSeek Harness 插件：以 MindSee 为后端，为 DeepSeek 提供图片相关能力",
+  "author": "cdx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/123cdxcc/dsh-mindsee.git"
+  },
+  "homepage": "https://github.com/123cdxcc/dsh-mindsee#readme",
+  "bugs": {
+    "url": "https://github.com/123cdxcc/dsh-mindsee/issues"
+  },
   "type": "module",
   "packageManager": "pnpm@10.18.0",
   "main": "dist/index.js",

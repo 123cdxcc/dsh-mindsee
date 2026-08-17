@@ -11,17 +11,10 @@ Paste a screenshot into the composer, or point at a JPEG, PNG, or WebP on your m
 You will need [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) and the web profile.
 
 ```bash
-dsh plugin --profile web add github:123cdxcc/dsh-mindsee
+dsh plugin --profile web add dsh-mindsee
 ```
 
 Restart `dsh web` when it finishes.
-
-The first install may pause and ask you to allow a build. That is expected: GitHub ships source, and the plugin compiles on your machine. Add the following to the web profile’s `pnpm-workspace.yaml`, then run the same command once more:
-
-```yaml
-allowBuilds:
-  dsh-mindsee: true
-```
 
 ## Connect your token
 
