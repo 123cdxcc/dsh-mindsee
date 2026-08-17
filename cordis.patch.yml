@@ -1,0 +1,5 @@
+# 只负责插入插件。按 id 改 config 必须写在 profile 的 cordis.patch.yml：
+# 本文件里插在 insert 前面的 id 覆盖找不到条目，会被丢掉。
+- insert:
+    - id: mindsee
+      name: dsh-mindsee
